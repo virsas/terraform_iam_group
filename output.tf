@@ -1,6 +1,6 @@
 output "arn" {
-  value = aws_iam_role.role.arn
+  value = aws_iam_group.group.arn
 }
 output "name" {
-  value = aws_iam_role.role.name
+  value = aws_iam_group.group.name
 }
