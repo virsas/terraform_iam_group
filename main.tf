@@ -19,5 +19,5 @@ resource "aws_iam_group_policy" "policy" {
   name  = "${var.name}-policy"
   group = aws_iam_group.group.name
 
-  policy = file("../json/iam_groups/${var.name}.json")
+  policy = file("json/iam_groups/${var.name}.json")
 }
