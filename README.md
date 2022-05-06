@@ -1,4 +1,4 @@
-# terraform_iam_custom_role
+# terraform_iam_group
 
 Terraform module to create IAM Groups with custom policies and members
 
